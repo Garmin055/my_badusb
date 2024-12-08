@@ -20,6 +20,12 @@ void setup()
   delay(100);
   Keyboard.releaseAll();
 
+  delay(6000);
+  Keyboard.press(KEY_LEFT_ARROW); Keyboard.releaseAll();
+  delay(200);
+  Keyboard.press(KEY_RETURN); Keyboard.releaseAll();
+  delay(300);
+
   Keyboard.end();
 }
 
